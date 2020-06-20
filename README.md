@@ -1,7 +1,7 @@
 # Operativos_tarea1
 Crear un WebServer el cual utiliza enteramente el protocolo  HTTP/1.1 para su comunicación. Este WebServer podría ejecutarse en modo pre-threaded o pre-forked. Además crear un cliente web que busque vencer los webservers dejándolos sin posibilidad de atender  a otro cliente.
 
-# Ejecución del programa
+### Ejecución del programa
 
 Para la ejecuci´on del programa se necesita el sistema operativo GNU/Linux.
 Es necesario descargar el c´odigo fuente del proyecto, este se puede encontrar en el
@@ -10,7 +10,7 @@ Tras descargar el c´odigo fuente, hay que proceder a extraer el proyecto en alg
 carpeta de nuestro sistema operativo.
 Seguidamente utilizamos la terminal y los comandos correspondientes para movernos hasta la direcci´on donde se encuentra nuestro proyecto. Este proyecto consta
 de dos carpetas principales, la que contiene los servidores y la que contiene los
-clientes.
+clientes.\
 Luego nos ubicaremos en la carpeta que contiene los servidores, vamos a proceder a compilar el proyecto utilizando el makefile, para ello debemos abrir la
 terminal en con la direcci´on donde se encuentra el makefile y escribir make en
 la terminal y teclear enter, esto nos va a compilar todos los archivos .c y nos va

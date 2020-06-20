@@ -3,9 +3,8 @@ Crear un WebServer el cual utiliza enteramente el protocolo  HTTP/1.1 para su co
 
 ### Ejecución del programa
 
-Para la ejecuci´on del programa se necesita el sistema operativo GNU/Linux.
-Es necesario descargar el c´odigo fuente del proyecto, este se puede encontrar en el
-repositorio de GitHub ubicado en https://github.com/johanhg/Operativos tarea1
+Para la ejecuci´on del programa se necesita el sistema operativo GNU/Linux.\
+
 Tras descargar el c´odigo fuente, hay que proceder a extraer el proyecto en alguna
 carpeta de nuestro sistema operativo.\
 Seguidamente utilizamos la terminal y los comandos correspondientes para movernos hasta la direcci´on donde se encuentra nuestro proyecto. Este proyecto consta
@@ -15,7 +14,7 @@ Luego nos ubicaremos en la carpeta que contiene los servidores, vamos a proceder
 terminal en con la direcci´on donde se encuentra el makefile y escribir make en
 la terminal y teclear enter, esto nos va a compilar todos los archivos .c y nos va
 a crear los ejecutables. Seguidamente podemos levantar nuestro propio servidor
-de dos formas:\
+de dos formas:
 
 En modo pre-thread utilizaremos la sintaxis:\
 ./WebServerThread -n [cantidad-hilos] -w [path] -p [port]\
